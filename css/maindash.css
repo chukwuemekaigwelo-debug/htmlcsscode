@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(222, 228, 228);
+    overflow-x: hidden;
+}
+
+.logo{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+nav{
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+ padding: 15px 40px;
+ margin: 10px;
+ background-color: blue;
+}
+
+
+
+.navset{
+display: flex;
+justify-content: center;
+gap:5rem;
+
+
+}
+
+.navset li {
+ margin-left: 20px;
+}
+
+.navset a {
+text-decoration: none;
+color: white;
+font-size: 16px;
+transition: 0.3s;
+}
+
+.navset a:hover {
+    color: black;
+}

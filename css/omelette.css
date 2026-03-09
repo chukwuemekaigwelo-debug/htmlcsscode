@@ -1,0 +1,175 @@
+/* * {
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+}
+
+body {
+  margin: 0;
+  padding: 40px;
+  background-color: #f3e5d8;
+}
+
+.card {
+  max-width: 700px;
+  margin: auto;
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 30px;
+  
+}
+
+img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 32px;
+  color: #2c2c2c;
+}
+
+.intro {
+  color: #555;
+  line-height: 1.6;
+}
+
+.prep {
+  background: #fff4fa;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 25px 0;
+}
+
+.prep h3 {
+  color: #7b284f;
+  margin-top: 0;
+}
+
+h2 {
+  color: #854632;
+  margin-top: 30px;
+}
+
+ul, ol {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 30px 0;
+}
+
+.nutrition p {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.nutrition span {
+  color: #854632;
+  font-weight: bold;
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+}
+
+body{
+  height:100vh ;
+  background: #1aa6b0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main{
+  width: 320px;
+  overflow: hidden ;
+  border-radius:15px ;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  background: white;
+
+}
+
+.upmain{
+  height: 120px;
+  background: linear-gradient(135deg, #45d3d3, #2bb3c0);
+
+}
+
+.mainjpg{
+  display: flex;
+  justify-content: center;
+  margin-top: -50px;
+}
+
+.mainjpg img{
+  width: 100px ;
+  height: 100px ;
+  border-radius: 50%;
+  border: 5px solid white;
+  object-fit: cover;
+}
+
+.lowmain{
+  text-align: center;
+  padding: 20px;
+
+}
+.lowmain h2{
+  font-size: 20px;
+  color: #333;
+
+}
+
+.lowmain h2 span{
+  font-weight: normal;
+  color: #777;
+}
+.lowmain p{
+  font-size: 14px;
+  color: #999;
+  margin-top: 5px;
+}
+
+.odd{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  border-top: 1px solid #eee;
+
+}
+
+.odd h3{
+  font-size: 18px;
+  color: #333;
+
+  
+}
+
+.odd p{
+  font-size: 12px;
+  color: #999;
+  margin-top: 4px;
+}
+
+
+
+
+
+
+
+
+

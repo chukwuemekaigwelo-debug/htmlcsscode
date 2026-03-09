@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+body{
+    display: flex;
+    background-color: rgb(222, 228, 228);
+}
+.main{
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   list-style: none;
+}
+
+.profile img{
+    width:90px ;
+    height: 120px;
+    border-radius: 50%;
+    padding: 5px;
+    background: rgba(216, 214, 214, 0.548);
+    
+    
+}
+
+.profile{
+    
+    display: flex;
+    margin-bottom: 20px;
+}
+.line{
+    width: 50px;
+    
+}
+.profile-text{
+justify-content: center;
+margin-left: 10px;
+margin-top: 20px;
+
+}
+.logo{
+color: black ;
+display: flex;
+
+margin-bottom: 50px;
+
+}
+.logo span{
+    color: rgba(231, 14, 14, 0.623);
+}
+.p{
+    color: rgba(216, 214, 214, 0.548);
+}
+
+.profile-info{
+    margin-top: 20px;
+    
+}
+
+.sidebar{
+    padding-inline: 50px;
+    padding-block: 10px;
+    height: 1000px;
+   
+    position:relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    
+    height: 150vh;
+    overflow: hidden;
+    transition: all 0.8s ease-in;
+    z-index: 2;
+}
+
+.mainnav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    list-style: none;
+    margin-left: 70px;
+    color: black;
+
+
+}
+
+.mainnav li{
+    padding: 1rem;
+    margin: 8px;
+    border-radius: 8pm;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.mainnav li:hover, .active{
+    background-color: rgba(241, 233, 233, 0.712);
+    
+
+}
+
+/* .mainnav a{
+    color: grey;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+} */
+
+.navbar{
+
+    margin-left: 50px;
+    color: black;
+    z-index: 1;
+    
+}
+.ri-moon-fill{
+   
+    padding: 10px;
+}
+.mainnav a{
+    color: black;
+}
+.page {
+    position: relative;
+    top: 100px;
+    right: 700px;
+   
+}
+.drag{
+    position: relative;
+    left: 600px;
+}
+
+
+
+.card-container{
+    display: flex;
+} */
+
+
+/* 
+   

@@ -1,0 +1,60 @@
+/* /* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.grid-container{
+    display: grid;
+    
+   grid-template-columns: repeat(3, 1fr);
+   width: 100%;
+   /* gap: 10px; */
+   /* grid-template-rows: repeat(3, 1fr);
+
+   grid-template-areas: 
+   "one one one"
+   "four three two"
+   "five five five";
+   
+}
+
+.one{
+    grid-area: one;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navs{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+input{
+    background-color: transparent;
+    border: 1px solid #ccc;
+    padding-left: 3px 10px;
+    color: #fff;
+    outline: none;
+
+}
+
+.input::placeholder{
+    color: rgb(180, 113, 7);
+}
+
+a{
+    text-decoration: none;
+    color: yellow;
+    font-size: 14px;
+}
+
+.two{
+    grid-area: two;
+    width: 10vw;
+
+}
+
+.three{ */

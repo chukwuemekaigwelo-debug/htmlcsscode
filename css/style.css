@@ -1,0 +1,109 @@
+/* RESET ALL HTML ELEMENTS TO HAVE NO MARGIN OR PADDING AND ALSO USE BORDER BOX SIZING */
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+/* ELEMENT SELECTORS */
+/* p{
+   background-color: lightcoral; 
+   color: blue;
+  
+}
+
+.highlight{
+    background-color:greenyellow;
+    color: purple;
+}
+
+.one{
+    font-size: 30px;
+}
+
+.two{
+    font-size: 20px;
+} */
+
+/*GROUP SELECTORS*/
+/* h1,H2{
+ color:brown;
+ background-color: rgb(226, 226, 118);
+
+} */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color:#2c2f3a;
+  padding: 13px;
+  height: 80px;
+}
+
+
+
+
+.nav-logo{
+ width: 100px;
+ margin-left: 65px;
+ padding-block: 10px;
+}
+
+.menu{
+    list-style: none;
+}
+.menu a{
+text-decoration:none;
+color: #ddd;
+padding: 10px 16px;
+display: block;
+}
+.max a{
+    text-decoration: none;
+    color: #ddd;
+}
+.max{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+.dropdown{
+    position: relative;
+}
+.dropdown-menu{
+    position: absolute;
+    top: 45px;
+    left: 0;
+    background: #f2f2f2;
+    border-radius: 10px;
+    min-width: 160px;
+    display: none;
+    padding: 8px 0;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu a{
+    color: #000;
+    padding: 10px 16px;
+}
+.dropdown-menu a:hover{
+    background: #ddd;
+}
+.menu{
+    margin-right: 300px;
+}

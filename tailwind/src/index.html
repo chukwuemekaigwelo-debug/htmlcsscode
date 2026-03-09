@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="bg-[url('/img/pexels-vasilisananiadis-5629850.jpg')] bg-no-repeat bg-cover h-screen">
+      <h1 class="text-white text-4xl">WELCOME TO TAILWIND CLASS</h1>
+    </div>
+    <hr class="my-20">
+    <p class="shadow-2xl w-1/2 m-10 p-10">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore explicabo non nam animi quaerat nobis itaque perspiciatis earum, possimus quasi, quos sapiente, libero delectus natus exercitationem rem temporibus reiciendis in.
+    </p>
+
+    <div class="h-14 bg-gradient-to-r from-cyan-500 to-blue-500"></div>
+
+    Background Size
+    bg-auto	    background-size: auto;
+    bg-cover	background-size: cover;
+    bg-contain	background-size: contain;
+   
+
+    Background Repeat
+    bg-repeat	      background-repeat: repeat;
+    bg-no-repeat	  background-repeat: no-repeat;
+    bg-repeat-x	    background-repeat: repeat-x;
+    bg-repeat-y	    background-repeat: repeat-y;
+   
+
+    <!-- Background Position
+    bg-bottom	    background-position: bottom;
+    bg-center	    background-position: center;
+    bg-left	        background-position: left;
+    bg-left-bottom	background-position: left bottom;
+    bg-left-top	    background-position: left top;
+    bg-right	    background-position: right;
+    bg-right-bottom	background-position: right bottom;
+    bg-right-top	background-position: right top;
+    bg-top	        background-position: top;
+    -->
+
+    <!-- Background Attachment
+    bg-fixed      background-attachment: fixed;
+    bg-scroll	  background-attachment: scroll;
+    -->
+
+
+    <div class="bg-green-200 p-4 m-10 flex flex-col gap-4 justify-center h-screen items-center flex-wrap">
+      <div class="bg-green-800 text-white w-20 h-20 self-end">box 1</div>
+      <div class="bg-green-800 text-white w-20 h-20">box 2</div>
+      <div class="bg-green-800 text-white w-20 h-20 self-start">box 3</div>
+      <div class="bg-green-800 text-white w-20 h-20">box 4</div>
+      <div class="bg-green-800 text-white w-20 h-20 self-end">box 5</div>
+    </div>
+
+    <!-- Justify Content
+      justify-start	      justify-content: flex-start;
+      justify-end	        justify-content: flex-end;
+      justify-center	    justify-content: center;
+      justify-between	    justify-content: space-between;
+      justify-around	    justify-content: space-around;
+      justify-evenly	    justify-content: space-evenly;
+    -->
+
+<!-- 
+      items-start	align-items: flex-start;
+      items-end	align-items: flex-end;
+      items-center	align-items: center;
+      items-baseline	align-items: baseline;
+      items-stretch	align-items: stretch;
+     -->
+
+<!-- Flex Direction
+      flex-row	        flex-direction: row;
+      flex-row-reverse	flex-direction: row-reverse;
+      flex-col	        flex-direction: column;
+      flex-col-reverse	flex-direction: column-reverse;
+    -->
+
+<!-- 
+      flex-wrap	        flex-wrap: wrap;
+      flex-wrap-reverse	flex-wrap: wrap-reverse;
+      flex-nowrap	      flex-wrap: nowrap;
+     -->
+
+<!-- Flex Properties
+      flex-none	    flex: none;     
+      Prevent item from growing or shrinking
+
+      flex-initial	flex: 0 1 auto; 
+      Allow item to shrink but not grow, taking into account its initial size
+
+      flex-auto	    flex: 1 1 auto; 
+      Allow item to grow and shrink, taking into account its initial size
+
+      flex-1	      flex: 1 1 0%;   
+      Allow item to grow and shrink as needed, ignoring its initial size
+    -->
+
+    <div class="bg-blue-200 m-10 p-10 grid grid-cols-3 gap-4"> 
+      <div class="col-span-2 row-span-3 bg-blue-800 text-white p-4">Normal</div>
+      <div class="bg-blue-800 text-white p-4">Normal</div>
+      <div class="bg-blue-800 text-white p-4">Normal</div>
+      <div class="bg-blue-800 text-white p-4">Normal</div>
+      <div class="bg-blue-800 text-white p-4">Normal</div>
+    </div>
+
+    <button class="bg-blue-800 px-4 py-2 m-10 rounded-lg text-white hover:bg-green-800 transition duration-1000 delay-75 hover:rotate-45 origin-top-left">Button</button>
+  </body>
+</html>

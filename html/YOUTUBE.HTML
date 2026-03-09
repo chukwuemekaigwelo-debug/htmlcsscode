@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>YouTube Exercise</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Roboto, Arial;
+}
+
+body{
+  background:#f9f9f9;
+}
+
+/* HEADER */
+.header{
+  height:56px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:0 20px;
+  background:white;
+  border-bottom:1px solid #ddd;
+}
+
+.left{
+  display:flex;
+  align-items:center;
+  gap:15px;
+}
+
+.logo{
+  color:red;
+  font-weight:bold;
+  font-size:18px;
+}
+
+.middle{
+  display:flex;
+  align-items:center;
+  width:500px;
+}
+
+.middle input{
+  flex:1;
+  height:36px;
+  padding-left:10px;
+  border:1px solid #ccc;
+}
+
+.search-btn{
+  width:60px;
+  height:36px;
+  border:1px solid #ccc;
+  background:#f8f8f8;
+}
+
+.right{
+  display:flex;
+  gap:20px;
+  font-size:18px;
+}
+
+/* LAYOUT */
+.container{
+  display:grid;
+  grid-template-columns:72px 1fr;
+}
+
+/* SIDEBAR */
+.sidebar{
+  background:white;
+  border-right:1px solid #eee;
+  padding-top:20px;
+  height:100vh;
+}
+
+.sidebar div{
+  text-align:center;
+  margin-bottom:25px;
+  font-size:20px;
+  cursor:pointer;
+}
+
+/* VIDEOS GRID */
+.videos{
+  padding:25px;
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:25px 20px;
+}
+
+.video{
+  cursor:pointer;
+}
+
+.thumbnail{
+  position:relative;
+}
+
+.thumbnail img{
+  width:100%;
+}
+
+.time{
+  position:absolute;
+  bottom:8px;
+  right:8px;
+  background:black;
+  color:white;
+  font-size:12px;
+  padding:3px 5px;
+  border-radius:3px;
+}
+
+.video-info{
+  display:flex;
+  margin-top:10px;
+}
+
+.video-info img{
+  width:36px;
+  height:36px;
+  border-radius:50%;
+  margin-right:10px;
+}
+
+.title{
+  font-size:14px;
+  font-weight:500;
+  margin-bottom:5px;
+}
+
+.channel,
+.stats{
+  font-size:12px;
+  color:#606060;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+  <div class="left">
+    ☰
+    <div class="logo">YouTube</div>
+  </div>
+
+  <div class="middle">
+    <input type="text" placeholder="Search">
+    <button class="search-btn">🔍</button>
+  </div>
+
+  <div class="right">
+    ➕ ⬜ 🔔 👤
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="sidebar">
+    <div>🏠</div>
+    <div>🔥</div>
+    <div>📺</div>
+    <div>🎵</div>
+    <div>📚</div>
+  </div>
+
+  <div class="videos">
+
+    <!-- VIDEO 1 -->
+    <div class="video">
+      <div class="thumbnail">
+        <img src="https://i.ytimg.com/vi/n2RNcPRtAiY/hqdefault.jpg">
+        <div class="time">14:20</div>
+      </div>
+      <div class="video-info">
+        <img src="https://yt3.ggpht.com/ytc/AAUvwnjXz.jpg">
+        <div>
+          <div class="title">Talking Tech and AI with Google CEO Sundar Pichai!</div>
+          <div class="channel">Marques Brownlee</div>
+          <div class="stats">3.4M views • 6 months ago</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- VIDEO 2 -->
+    <div class="video">
+      <div class="thumbnail">
+        <img src="https://i.ytimg.com/vi/9bZkp7q19f0/hqdefault.jpg">
+        <div class="time">8:22</div>
+      </div>
+      <div class="video-info">
+        <img src="https://yt3.ggpht.com/ytc/AAUvwnjY.jpg">
+        <div>
+          <div class="title">Try Not To Laugh Challenge #9</div>
+          <div class="channel">Markiplier</div>
+          <div class="stats">19M views • 4 years ago</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- VIDEO 3 -->
+    <div class="video">
+      <div class="thumbnail">
+        <img src="https://i.ytimg.com/vi/l482T0yNkeo/hqdefault.jpg">
+        <div class="time">9:13</div>
+      </div>
+      <div class="video-info">
+        <img src="https://yt3.ggpht.com/ytc/AAUvwnjZ.jpg">
+        <div>
+          <div class="title">Crazy Tik Toks Taken Moments Before DISASTER</div>
+          <div class="channel">SSSniperWolf</div>
+          <div class="stats">12M views • 1 year ago</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- VIDEO 4 -->
+    <div class="video">
+      <div class="thumbnail">
+        <img src="https://i.ytimg.com/vi/8hly31xKli0/hqdefault.jpg">
+        <div class="time">22:09</div>
+      </div>
+      <div class="video-info">
+        <img src="https://yt3.ggpht.com/ytc/AAUvwnja.jpg">
+        <div>
+          <div class="title">The Simplest Math Problem No One Can Solve</div>
+          <div class="channel">Veritasium</div>
+          <div class="stats">18M views • 4 months ago</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
